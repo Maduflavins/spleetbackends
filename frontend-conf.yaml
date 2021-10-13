@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: frontend-secret-config
+type: Opaque
+data:
+  reactappui: d2FzaGJ1cm4udXMuYXV0aDAuY29t
+  clientid: V3lhcFNHOWQ5VFZuNXpabjJFOHE4VTJOYXBXOTRuWGw=
+  appaudience: aHR0cHM6Ly93YXNoYnVybi51cy5hdXRoMC5jb20vYXBpL3YyLw==
